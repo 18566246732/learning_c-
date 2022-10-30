@@ -18,11 +18,13 @@ private:
   int age;
   unsigned char purpose;
 }
-``
+```
 
 ### source and header file
 
 how c++ files get executed:
 
 source file -> assembly file -> object file
-![Screen Shot 2022-10-29 at 22 21 52](https://user-images.githubusercontent.com/32592393/198836640-953f34ba-5fb5-473c-8b91-d978b464c4df.png)
+
+![img](https://user-images.githubusercontent.com/32592393/198836640-953f34ba-5fb5-473c-8b91-d978b464c4df.png)
+
