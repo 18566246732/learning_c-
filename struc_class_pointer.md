@@ -27,4 +27,11 @@ how c++ files get executed:
 source file -> assembly file -> object file
 
 ![img](https://user-images.githubusercontent.com/32592393/198836640-953f34ba-5fb5-473c-8b91-d978b464c4df.png)
+- source file
+your c++ code, these file are sent to the 1nd program known as the `compiler`
 
+- assembly file
+human readable version of the navite language of the target CPU, these files are sent to the 2nd programe known as the `assembler`
+
+- object file
+which are correlated pieces of your project, these file are sent to the 3rd program known as the `linker`
