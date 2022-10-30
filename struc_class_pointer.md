@@ -35,3 +35,6 @@ human readable version of the navite language of the target CPU, these files are
 
 - object file
 which are correlated pieces of your project, these file are sent to the 3rd program known as the `linker`
+
+- make file
+sometimes the compiler needs to interact with the command-line, which can be complicated, so the makeFile comes to rescue.
