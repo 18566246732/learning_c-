@@ -65,8 +65,12 @@ then we have to understand the meaning of:
 
 ### reference
 
-reference is not a object or a pointer, it has no memory address, therefor:
+reference is not a object or a pointer, it has no memory address, therefore:
 1. we can't create reference of an array.
 2. there are no references to references.
+  both references will point to the same object
 3. there are no pointers to references.
 
+#### difference between pointers and references
+pointers are more powerful, references are more safe
+![img](https://user-images.githubusercontent.com/32592393/199511839-bb58b3f5-e479-4ffc-a22c-dfcebde45961.png)
