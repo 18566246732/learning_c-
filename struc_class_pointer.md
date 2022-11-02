@@ -38,3 +38,30 @@ which are correlated pieces of your project, these file are sent to the 3rd prog
 
 - make file
 sometimes the compiler needs to interact with the command-line, which can be complicated, so the makeFile comes to rescue.
+
+
+### pointers
+pointers can save memory, you can create a class pointer, which can point to a class entity
+```c++
+// for example, if cow is a class
+cow * my_cow = new cow(10, "sandy", meat);
+
+// if you do not use pointer, it will create much more memory
+cow my_cow(10, "sandy", meat);
+```
+
+if we write:
+```c++
+int a = 34;
+int *ptr = &a;
+```
+
+then we have to understand the meaning of:
+1. a
+2. &a
+3. ptr
+4. \*ptr
+5. &ptr
+
+
+
