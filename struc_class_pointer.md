@@ -63,5 +63,10 @@ then we have to understand the meaning of:
 4. \*ptr
 5. &ptr
 
+### reference
 
+reference is not a object or a pointer, it has no memory address, therefor:
+1. we can't create reference of an array.
+2. there are no references to references.
+3. there are no pointers to references.
 
