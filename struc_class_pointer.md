@@ -74,3 +74,18 @@ reference is not a object or a pointer, it has no memory address, therefore:
 #### difference between pointers and references
 pointers are more powerful, references are more safe
 ![img](https://user-images.githubusercontent.com/32592393/199511839-bb58b3f5-e479-4ffc-a22c-dfcebde45961.png)
+
+#### applications of references
+1. passing parameters
+2. avoding copy large object of function parameters
+3. avoding copy large object of loop
+
+the read-write permission must be minified, can't be magnified. 
+```c++
+int a = 42;
+// we have to use const so that `b` can't change the value of `a`
+const int& b = a;
+```
+
+### vectors
+
