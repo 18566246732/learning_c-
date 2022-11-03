@@ -88,4 +88,8 @@ const int& b = a;
 ```
 
 ### vectors
-
+1. dynamic-size container
+2. manage memory automatically, but if you put object with manually allocated memory into the vector, then you have to free the memory manually
+3. generic container classes
+  which means vectors can be implemented to store any type of elements (ints, floats, string and objects)
+5. part of the STL (standard template library)
